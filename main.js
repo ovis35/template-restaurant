@@ -9,7 +9,7 @@ function ready() {
 	.then((response) => response.json())
 	.then(json => {
 		// Group menu items by their category
-		let groupedMenu = _.groupBy(json.menuItems, 'category');
+		let groupedMenu = _.groupBy(json.yunlingoods, 'category');
 		// Create a Handlebars template to render items
 		var template = Handlebars.compile(document.getElementById("menu-template").innerHTML);
 		// Render items into Handlebars template, and set the html of the container element
