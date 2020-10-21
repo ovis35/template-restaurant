@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 })
 
 function ready() {
-	let url = 'https://api.sheety.co/phill/cluckerRestaurant/menuItems';
+	let url = 'https://api.sheety.co/875f2bde4f0510912281d6350faad59f/woodwhiteItemlist/yunlingoods';
 	fetch(url)
 	.then((response) => response.json())
 	.then(json => {

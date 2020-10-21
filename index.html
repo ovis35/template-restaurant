@@ -12,8 +12,8 @@
 <div class="container">
 	<div class="row text-center">
 		<div class="col-lg-6 offset-lg-3">
-			<h1 class="logo mb-2">&#128020;<br>Clucker!</h1>
-			<p>Our British chicken is fresh, never frozen and marinated in PERi-PERi for 24 hours before being flame-grilled.</p>
+			<h1 class="logo mb-2">&#128020;<br>test!</h1>
+			<p>test.</p>
 		</div>
 	</div>
 	<div class="row">
@@ -25,7 +25,7 @@
 						{{#each this as |item|}}
 							<li class="item d-flex align-items-center mb-3">
 								<div class="name">{{item.item}}</div>
-								{{#if item.isVegetarian}}
+								{{#if item.isOn}}
 									<div class="v">V</div>
 								{{/if}}
 								<div class="price ml-auto">&pound;{{item.price}}</div>
@@ -40,6 +40,6 @@
 </script>
 </head>
 <body>
-	<div class="container" id="menu">Loading menu...</div>
+	<div class="container" id="menu">載入資料中...</div>
 </body>
 </html>
